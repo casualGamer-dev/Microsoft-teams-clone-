@@ -12,7 +12,7 @@ app.use(function (req, res, next) {
   next();
 });
 
-const port = process.env.PORT || 8000;
+const port = 3003;
 
 //seeting up socket.io
 const io = require('socket.io')(server, {
